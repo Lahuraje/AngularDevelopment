@@ -8,6 +8,7 @@ import { PurchaseComponent } from './purchase/purchase/purchase.component';
 import { SellComponent } from './sell/sell/sell.component';
 import { ProductionComponent } from './prod/production/production.component';
 import { WrokersComponent } from './wroker/wrokers/wrokers.component';
+import { DashboardComponent } from './dashboard/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { WrokersComponent } from './wroker/wrokers/wrokers.component';
     PurchaseComponent,
     SellComponent,
     ProductionComponent,
-    WrokersComponent
+    WrokersComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
